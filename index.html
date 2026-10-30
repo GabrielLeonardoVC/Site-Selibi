@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Entre Linhas – a carreira e as obras de Thalita Rebouças</title>
+<meta name="description" content="Blog educativo sobre a carreira, as obras e as adaptações da escritora Thalita Rebouças.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f3ea;--card:#ffffff;--text:#1b1b1b;--muted:#454545;--green:#0f3d3e;--green2:#1c5a58;--gold:#f2b84b;--coral:#b4432a;--mint:#d6eae3;--link:#0b5456;--line:#e3dccd;--onc:#ffffff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#0f1514;--card:#18211f;--text:#eeeeee;--muted:#bfc8c5;--green:#0a2a2b;--coral:#ff9d82;--mint:#1d2e2b;--link:#86d9d4;--line:#2c3835}}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#0f1514;--card:#18211f;--text:#eeeeee;--muted:#bfc8c5;--green:#0a2a2b;--coral:#ff9d82;--mint:#1d2e2b;--link:#86d9d4;--line:#2c3835}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:70px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font:1.05rem/1.75 Mulish,system-ui,-apple-system,"Segoe UI",sans-serif;overflow-wrap:break-word}
+h1,h2,h3{font-family:"DM Serif Display",Georgia,"Times New Roman",serif;font-weight:400;line-height:1.15;margin:0}
+a{color:var(--link)}
+.wrap{width:100%;max-width:1120px;margin:0 auto;padding:0 1.3rem}
+.label{font:800 .76rem Mulish,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--coral)}
+header.nav{position:sticky;top:0;z-index:20;background:var(--green);color:#fff}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;flex-wrap:wrap;padding-top:.7rem;padding-bottom:.7rem}
+.brand{font:400 1.35rem "DM Serif Display",Georgia,serif;color:#fff;text-decoration:none}
+.nav nav{display:flex;flex-wrap:wrap;gap:.2rem 1.3rem}
+.nav nav a{color:#fff;text-decoration:none;font-weight:700;font-size:.92rem;padding:.2rem 0;border-bottom:2px solid transparent}
+.nav nav a:hover,.nav nav a:focus{border-bottom-color:var(--gold)}
+.hero{background:var(--green);color:#fff;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:2rem;align-items:center;padding-top:3.5rem;padding-bottom:2.5rem}
+.hero .label{color:var(--gold)}
+.hero h1{font-size:clamp(2.5rem,7vw,4.6rem);margin:.7rem 0 1rem}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:#dcebe8;font-size:1.12rem;max-width:34rem;margin:0 0 1.6rem}
+.btn{display:inline-block;background:var(--gold);color:#1b1b1b;font-weight:800;text-decoration:none;padding:.75rem 1.4rem;border-radius:999px;transition:transform .2s}
+.btn:hover{transform:translateY(-2px)}
+.hero svg{width:100%;height:auto;display:block}
+section{padding:3.5rem 0 0}
+h2.sec{font-size:clamp(1.8rem,4.5vw,2.6rem);margin:.4rem 0 .6rem}
+.lead{max-width:44rem;color:var(--muted);margin:0 0 1.8rem}
+.feat{display:grid;grid-template-columns:1fr 1.1fr;background:var(--card);border-radius:20px;overflow:hidden;box-shadow:0 14px 34px -18px rgba(15,61,62,.45);border:1px solid var(--line)}
+.banner{display:block;width:100%;height:100%;min-height:180px}
+.feat .body,.card .body{padding:1.8rem}
+.feat h3{font-size:clamp(1.6rem,3.5vw,2.2rem);margin:.5rem 0 .4rem}
+.by{font-size:.88rem;color:var(--muted);margin:0 0 1rem;font-weight:600}
+.body p{margin:0 0 1rem}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:1.6rem;margin-top:1.6rem}
+.card{background:var(--card);border-radius:20px;overflow:hidden;border:1px solid var(--line);box-shadow:0 14px 34px -22px rgba(15,61,62,.5)}
+.card .banner{height:150px}
+.card h3{font-size:1.5rem;margin:.4rem 0 .3rem}
+.opi{margin-top:3.5rem;background:var(--mint);border-left:8px solid var(--coral)}
+.opi .wrap{padding-top:2.2rem;padding-bottom:2.2rem;max-width:860px}
+.opi h3{font-size:clamp(1.5rem,3.5vw,2rem);margin:.4rem 0 .6rem}
+.opi p{margin:.6rem 0}
+.aviso{font-size:.92rem;color:var(--muted);font-style:italic}
+.films{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:1rem}
+.film{background:var(--green);color:#fff;border-radius:16px;padding:1.2rem 1.2rem 1.3rem;position:relative}
+.film:before{content:"";position:absolute;left:0;right:0;top:.5rem;height:6px;background:repeating-linear-gradient(90deg,#ffffff55 0 10px,transparent 10px 20px)}
+.film b{display:block;font:400 2.3rem "DM Serif Display",Georgia,serif;color:var(--gold);margin-top:.7rem;line-height:1}
+.film strong{display:block;margin:.4rem 0 .2rem;font-size:1.05rem}
+.film span{font-size:.9rem;color:#d6e6e3;line-height:1.5;display:block}
+.note{font-size:.9rem;color:var(--muted);margin-top:1rem}
+.reads{list-style:none;padding:0;margin:0;display:grid;gap:.9rem}
+.reads li{display:grid;grid-template-columns:70px 1fr;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.reads .n{display:flex;align-items:center;justify-content:center;font:400 2rem "DM Serif Display",Georgia,serif;color:#1b1b1b}
+.reads li:nth-child(1) .n{background:#f2b84b}.reads li:nth-child(2) .n{background:#8fd3c4}.reads li:nth-child(3) .n{background:#f0a590}.reads li:nth-child(4) .n{background:#a9c4ee}.reads li:nth-child(5) .n{background:#d9c7ef}
+.reads div{padding:.9rem 1.1rem}
+.reads strong{display:block;font-size:1.05rem}
+.reads span{color:var(--muted);font-size:.96rem}
+ol.refs{padding-left:1.3rem;font-size:.95rem;line-height:1.7;margin:1rem 0 0}
+ol.refs li{margin-bottom:.5rem}
+footer{background:var(--green);color:#d6e6e3;margin-top:4rem;padding:2.2rem 0;font-size:.9rem;line-height:1.7}
+footer strong{font:400 1.4rem "DM Serif Display",Georgia,serif;color:#fff;display:block;margin-bottom:.4rem}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.btn{transition:none}}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr;padding-top:2.5rem}.hero svg{max-width:460px;margin:0 auto}.feat{grid-template-columns:1fr}.feat .banner{height:170px}}
+@media(max-width:480px){body{font-size:1rem}.wrap{padding:0 1rem}.feat .body,.card .body{padding:1.3rem}.reads li{grid-template-columns:54px 1fr}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap">
+  <a class="brand" href="#topo">Entre Linhas</a>
+  <nav aria-label="Navegação principal"><a href="#destaque">Textos</a><a href="#telas">Dos livros às telas</a><a href="#leituras">Para ler</a><a href="#fontes">Fontes</a></nav>
+</div></header>
+
+<div class="hero" id="topo"><div class="wrap">
+  <div>
+    <span class="label">Blog escolar · Autora homenageada</span>
+    <h1>A carreira e as obras de <em>Thalita Rebouças</em></h1>
+    <p>Da faculdade de direito às telas do cinema: uma leitura sobre o caminho de uma das escritoras mais populares do Brasil entre jovens leitores.</p>
+    <a class="btn" href="#destaque">Começar a ler</a>
+  </div>
+  <svg viewBox="0 0 480 360" role="img" aria-label="Ilustração original: paisagem estilizada com morros, sol, bondinho e um livro aberto">
+    <circle cx="340" cy="100" r="56" fill="#f2b84b"/>
+    <g fill="#fff" opacity=".8"><circle cx="60" cy="50" r="2.5"/><circle cx="140" cy="30" r="2"/><circle cx="220" cy="70" r="2.5"/><circle cx="430" cy="40" r="2"/><circle cx="90" cy="110" r="2"/></g>
+    <path d="M0 250C60 190 110 170 160 200 200 120 260 120 290 190 340 160 400 170 480 240V360H0z" fill="#1c5a58"/>
+    <path d="M0 290C70 250 140 250 200 280 260 240 340 240 480 290V360H0z" fill="#134b4a"/>
+    <path d="M120 150L300 180" stroke="#fff" stroke-opacity=".6" stroke-width="2"/>
+    <rect x="196" y="156" width="18" height="12" rx="3" fill="#f2b84b"/>
+    <g transform="translate(90 258)">
+      <path d="M150 0C100 -14 50 -14 0 4V84C50 66 100 66 150 80z" fill="#f7f3ea"/>
+      <path d="M150 0C200 -14 250 -14 300 4V84C250 66 200 66 150 80z" fill="#e8dfcb"/>
+      <path d="M150 0V80" stroke="#0f3d3e" stroke-width="3"/>
+      <g stroke="#0f3d3e" stroke-width="3" stroke-linecap="round" opacity=".55"><path d="M28 28c35-10 70-8 100 2M28 46c35-10 70-8 100 2M170 30c30-8 62-10 100-2M170 48c30-8 62-10 100-2"/></g>
+    </g>
+  </svg>
+</div></div>
+
+<main class="wrap">
+  <section id="destaque" class="rv">
+    <span class="label">Em destaque</span>
+    <h2 class="sec">Os textos do blog</h2>
+    <p class="lead">Quatro leituras sobre a trajetória da autora, com base em reportagens e perfis publicados na imprensa.</p>
+    <article class="feat" id="receita">
+      <svg class="banner" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração original de dois balões de conversa">
+        <rect width="400" height="300" fill="#f2b84b"/>
+        <circle cx="330" cy="50" r="90" fill="#f0a590" opacity=".8"/>
+        <path d="M50 70h190a22 22 0 0 1 22 22v62a22 22 0 0 1-22 22h-110l-36 32v-32H50a22 22 0 0 1-22-22V92a22 22 0 0 1 22-22z" fill="#0f3d3e"/>
+        <g stroke="#f7f3ea" stroke-width="7" stroke-linecap="round"><path d="M64 108h150M64 134h100"/></g>
+        <path d="M170 176h150a22 22 0 0 1 22 22v50a22 22 0 0 1-22 22h-20v28l-34-28H170a22 22 0 0 1-22-22v-50a22 22 0 0 1 22-22z" fill="#fff"/>
+        <g stroke="#0f3d3e" stroke-width="7" stroke-linecap="round"><path d="M180 210h120M180 232h70"/></g>
+      </svg>
+      <div class="body">
+        <span class="label">Obra · Outubro de 2026</span>
+        <h3>A receita de “Fala sério, mãe!”</h3>
+        <p>Lançado em 2004, “Fala sério, mãe!” juntou duas ideias, conforme relata o Brazil Journal: adolescentes que não gostavam de ler precisavam de histórias curtas, e mães e filhas precisavam se reconhecer no mesmo livro.</p>
+        <p>A autora afirma que foi esse livro que a colocou no mapa. Ela conta ainda que, ao reler textos escritos entre os 14 e os 16 anos, encontrou ali o embrião da personagem Malu. Na trama, a mãe, Ângela Cristina, narra a chegada da primeira filha, e depois é a própria Malu quem assume a narração.</p>
+        <p>A repercussão levou à criação de uma série com a mesma personagem, que inclui volumes sobre a convivência com o pai, os professores, os romances e as amizades de Malu.</p>
+      </div>
+    </article>
+
+    <div class="grid2">
+      <article class="card" id="direito">
+        <svg class="banner" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração original de livros e jornal">
+          <rect width="400" height="150" fill="#8fd3c4"/>
+          <rect x="60" y="60" width="90" height="70" rx="6" fill="#0f3d3e"/><rect x="72" y="74" width="66" height="6" fill="#f2b84b"/><rect x="72" y="90" width="44" height="6" fill="#f7f3ea"/>
+          <rect x="165" y="30" width="110" height="100" rx="6" fill="#fff"/><g stroke="#0f3d3e" stroke-width="5" stroke-linecap="round"><path d="M180 52h80M180 70h80M180 88h50"/></g>
+          <circle cx="330" cy="50" r="26" fill="#f2b84b"/>
+        </svg>
+        <div class="body">
+          <span class="label">Carreira · Outubro de 2026</span>
+          <h3>Do direito ao jornalismo</h3>
+          <p class="by">Por Seu Nome</p>
+          <p>Antes de virar autora de sucesso, Thalita Rebouças cursou direito por cerca de dois anos. Em entrevista publicada pelo Brazil Journal, ela explica que mudou de curso porque, se não podia transformar o mundo pelas leis, poderia tentar fazer isso por meio dos textos. Foi então para o jornalismo.</p>
+          <p>A experiência na imprensa veio antes da literatura. Segundo as fontes consultadas, ela estreou como autora com “Traição entre amigas”, publicado no ano 2000, quando tinha cerca de 25 anos.</p>
+        </div>
+      </article>
+
+      <article class="card" id="alem">
+        <svg class="banner" viewBox="0 0 400 150" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ilustração original de cortinas de palco e notas musicais">
+          <rect width="400" height="150" fill="#f0a590"/>
+          <path d="M0 0h140c-20 40-20 80 0 150H0z" fill="#b4432a"/><path d="M400 0H260c20 40 20 80 0 150h140z" fill="#b4432a"/>
+          <circle cx="200" cy="75" r="42" fill="#f7f3ea"/>
+          <path d="M190 95V52l26-6v40" fill="none" stroke="#0f3d3e" stroke-width="6" stroke-linecap="round"/><circle cx="184" cy="96" r="9" fill="#0f3d3e"/><circle cx="210" cy="88" r="9" fill="#0f3d3e"/>
+        </svg>
+        <div class="body">
+          <span class="label">Carreira · Outubro de 2026</span>
+          <h3>Além dos livros</h3>
+          <p class="by">Por Seu Nome</p>
+          <p>De acordo com o Buscapé, Thalita Rebouças foi colunista da revista Atrevida, começou a publicar em outros países em 2009 e estreou um musical em 2012. Em 2013, lançou seu primeiro livro infantil.</p>
+          <p>Uma reportagem da Folhapress também registrou o interesse da autora por roteiro de cinema e por música, além do musical “Fala sério, gente”. Mais recentemente, a revista IstoÉ noticiou o lançamento de “Camaleoa”, descrito como seu primeiro trabalho de não ficção.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<div class="opi" id="opiniao">
+    <div class="wrap">
+      <span class="label">Opinião</span>
+      <h3>Por que livros curtos e divertidos funcionam</h3>
+      <p class="aviso">Este texto é uma opinião pessoal de quem escreve o blog. Não é uma informação factual.</p>
+      <p>Na minha visão, a força desses livros está na leitura leve. Capítulos curtos e situações do cotidiano ajudam quem acha que não gosta de ler a descobrir o prazer de acompanhar uma boa história, e isso pode abrir caminho para leituras mais longas.</p>
+    </div>
+</div>
+
+<main class="wrap">
+  <section id="telas" class="rv">
+    <span class="label">Adaptações</span>
+    <h2 class="sec">Dos livros às telas</h2>
+    <p class="lead">Várias obras da autora ganharam versões para o teatro e o cinema. Estes são os casos confirmados pelas fontes consultadas.</p>
+    <div class="films">
+      <div class="film"><b>2014</b><strong>Fala sério, mãe!</strong><span>Adaptação para o teatro, citada pelo Buscapé.</span></div>
+      <div class="film"><b>2016</b><strong>É Fada</strong><span>Baseado em “Uma fada veio me visitar”, com Kéfera Buchmann e Klara Castanho (e-Biografia).</span></div>
+      <div class="film"><b>2017</b><strong>Fala sério, mãe!</strong><span>Filme com Ingrid Guimarães e Larissa Manoela (IstoÉ).</span></div>
+      <div class="film"><b>2019</b><strong>Ela disse, ele disse</strong><span>Filme citado pela IstoÉ.</span></div>
+      <div class="film"><b>2021</b><strong>Confissões de uma garota excluída</strong><span>Filme citado pela IstoÉ.</span></div>
+      <div class="film"><b>—</b><strong>Tudo por um pop star</strong><span>A Folhapress cita o longa e o primeiro roteiro da autora; o ano não consta na fonte.</span></div>
+    </div>
+    <p class="note">A Exame afirma que “Era uma vez minha 1ª vez” é o décimo filme ligado à autora. A contagem é da reportagem e pode variar entre veículos.</p>
+  </section>
+
+  <section id="leituras" class="rv">
+    <span class="label">Sugestões</span>
+    <h2 class="sec">Para começar a ler</h2>
+    <p class="lead">Resumos próprios do blog. Os anos aparecem só quando as fontes concordam.</p>
+    <ol class="reads">
+      <li><span class="n">1</span><div><strong>Fala sério, mãe! (2004)</strong><span>O livro que abriu a série e apresenta Malu e Ângela Cristina.</span></div></li>
+      <li><span class="n">2</span><div><strong>Fala sério, pai! (2009)</strong><span>O pai narra parte da história e depois Malu assume a voz.</span></div></li>
+      <li><span class="n">3</span><div><strong>Fala sério, professor!</strong><span>Malu e as relações com seus professores mais marcantes.</span></div></li>
+      <li><span class="n">4</span><div><strong>Uma fada veio me visitar (2007)</strong><span>História que inspirou o filme “É Fada”.</span></div></li>
+      <li><span class="n">5</span><div><strong>Traição entre amigas (2000)</strong><span>Apontado como o primeiro livro da autora.</span></div></li>
+    </ol>
+  </section>
+
+  <section id="fontes" class="rv">
+    <span class="label">Transparência</span>
+    <h2 class="sec">Fontes consultadas</h2>
+    <p class="lead">Acessadas em outubro de 2026. Os textos foram escritos com palavras próprias. Quando as fontes divergem, o blog evita citar datas.</p>
+    <ol class="refs">
+      <li>Brazil Journal – “Thalita Rebouças: eu optei pela felicidade”. <a href="https://braziljournal.com/thalita-reboucas-eu-optei-pela-felicidade/">braziljournal.com</a></li>
+      <li>Buscapé – “Livros da Thalita Rebouças”. <a href="https://www.buscape.com.br/livros/conteudo/livros-da-thalita-reboucas">buscape.com.br</a></li>
+      <li>Guia da Semana – “Fala sério, Thalita”. <a href="https://www.guiadasemana.com.br/filhos/noticia/fala-serio-thalita">guiadasemana.com.br</a></li>
+      <li>Folhapress, via Bem Paraná – “Thalita Rebouças revela obsessão com trabalho de compositora”. <a href="https://www.bemparana.com.br/televisao-gente/thalita-reboucas-revela-obsessao-com-trabalho-de-compositora/">bemparana.com.br</a></li>
+      <li>e-Biografia – “Thalita Rebouças”. <a href="https://www.ebiografia.com/thalita_reboucas/">ebiografia.com</a></li>
+      <li>IstoÉ – “Camaleoa: Thalita Rebouças se reinventa em obra sobre a mulher madura contemporânea”. <a href="https://istoe.com.br/camaleoa-thalita-reboucas-se-reinventa-em-obra-sobre-a-mulher-madura-contemporanea">istoe.com.br</a></li>
+      <li>Exame – “Thalita Rebouças ainda escreve para a garota esquisita que existe em todos nós”. <a href="https://exame.com/pop/thalita-reboucas-ainda-escreve-para-a-garota-esquisita-que-existe-em-todos-nos/">exame.com</a></li>
+    </ol>
+  </section>
+</main>
+
+<footer><div class="wrap">
+  <strong>Entre Linhas</strong>
+  Blog escolar sem fins lucrativos, feito para fins educativos em homenagem à autora. Não é um site oficial e não tem ligação com a autora nem com suas editoras. Títulos de livros, filmes e personagens pertencem aos seus titulares e são citados apenas para informar. Todas as ilustrações são originais. © 2026
+</div></footer>
+
+<script>
+var els=document.querySelectorAll(".rv");
+if("IntersectionObserver" in window){
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.06});
+ els.forEach(function(el){io.observe(el)});
+}else{els.forEach(function(el){el.classList.add("in")})}
+</script>
+</body>
+</html>
